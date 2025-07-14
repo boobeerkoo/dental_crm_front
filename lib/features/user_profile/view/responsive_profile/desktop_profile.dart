@@ -24,10 +24,10 @@ class _DesktopProfileState extends State<DesktopProfile> {
   String _name = ' ';
   String _email = ' ';
   final Uri _url = Uri.parse(
-      'https://docs.google.com/uc?export=download&id=1tswypAbxjw8ke56ESewlEuKAuqUUiu3t');
+      '');
 
   final Uri _urlWind = Uri.parse(
-      'https://docs.google.com/uc?export=download&id=1RCoubhN8xyEnCc22I2KJzreMVgSdWMfK');
+      '');
 
   @override
   void initState() {
