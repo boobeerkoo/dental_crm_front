@@ -1,7 +1,5 @@
 import 'package:dental_crm_flutter_front/features/user_profile/bloc/user_bloc.dart';
 import 'package:dental_crm_flutter_front/features/user_profile/widgets/form_button.dart';
-import 'package:dental_crm_flutter_front/features/user_profile/widgets/form_pass_field.dart';
-import 'package:dental_crm_flutter_front/features/user_profile/widgets/form_text_field.dart';
 import 'package:dental_crm_flutter_front/repositories/user/user_repository.dart';
 import 'package:dental_crm_flutter_front/utils/utils.dart';
 import 'package:dental_crm_flutter_front/widgets/widgets.dart';
