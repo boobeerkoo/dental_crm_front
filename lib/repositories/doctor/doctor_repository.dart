@@ -6,7 +6,7 @@ class DoctorRepository {
   final Dio _dio = Dio();
   final FlutterSecureStorage storage = const FlutterSecureStorage();
   static String mainUrl =
-      "http://localhost:8081/api/v1";
+      "https://dental-crm-back.onrender.com";
 
   Future<Doctor> saveDoctor(SaveDoctorRequest request) async {
     final url = '$mainUrl/doctors';

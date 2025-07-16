@@ -6,7 +6,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 class AuthRepository {
   final Dio _dio = Dio();
   static String mainUrl =
-      "http://localhost:8081/api/v1/auth";
+      "https://dental-crm-back.onrender.com/auth";
   var loginUrl = "$mainUrl/login";
   var registerUrl = "$mainUrl/register";
 
